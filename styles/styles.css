@@ -418,6 +418,10 @@ section {
   left: 0;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
 header {
   height: 100vh;
   display: flex;
@@ -443,29 +447,29 @@ header .heroImageContainer img {
   box-shadow: 12px 0 #ADB7F6, 24px 0 #C5CCF6, 36px 0 #DFE2F6;
 }
 
-header .heroDescription {
+header .personalInfo {
   flex: 0 0 50%;
   padding: 0 15px;
   width: 100%;
 }
 
-header .heroDescription .greeting {
+header .personalInfo .greeting {
   letter-spacing: 1px;
   font-size: 1rem;
   line-height: 1.2;
 }
 
-header .heroDescription h1 {
+header .personalInfo h1 {
   font-size: 2.5rem;
   letter-spacing: 2px;
   margin: 24px 0;
 }
 
-header .heroDescription h1 span {
+header .personalInfo h1 span {
   color: #4C60C3;
 }
 
-header .heroDescription .smallBio {
+header .personalInfo .smallBio {
   letter-spacing: 1px;
   color: #5F6F81;
   font-size: 1rem;
@@ -473,17 +477,17 @@ header .heroDescription .smallBio {
   line-height: 1.4;
 }
 
-header .heroDescription .smallBio span {
+header .personalInfo .smallBio span {
   color: #4C60C3;
   font-size: 1.1rem;
 }
 
-header .heroDescription .socialsResume {
+header .personalInfo .socialsResume {
   display: flex;
   margin-top: 30px;
 }
 
-header .heroDescription .socialsResume .resumeLink {
+header .personalInfo .socialsResume .resumeLink {
   background-color: #4C60C3;
   padding: 15px 35px;
   border-radius: 40px;
@@ -495,13 +499,13 @@ header .heroDescription .socialsResume .resumeLink {
   text-align: center; margin: auto;
 }
 
-header .heroDescription .socialsResume .resumeLink:hover {
+header .personalInfo .socialsResume .resumeLink:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
   display: block;
   text-align: center; margin: auto;
 }
 
-header .heroDescription .socialsResume .resumeLink:focus {
+header .personalInfo .socialsResume .resumeLink:focus {
   border-color: #80bdff;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -928,11 +932,11 @@ footer p {
     padding: 80px 0;
     height: auto;
   }
-  header .heroDescription {
+  header .personalInfo {
     text-align: center;
     margin-top: 50px;
   }
-  header .heroDescription .socialsResume {
+  header .personalInfo .socialsResume {
     justify-content: center;
   }
   .socialsList {
@@ -1013,7 +1017,7 @@ footer p {
   header {
     padding: 40px 0;
   }
-  header .heroDescription .socialsResume {
+  header .personalInfo .socialsResume {
     display: block;
     margin: 5px;
   }
