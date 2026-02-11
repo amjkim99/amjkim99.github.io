@@ -616,6 +616,11 @@ header .personalInfo .socialsResume .resumeLink:focus {
   height: 35px;
 }
 
+.textLink {
+  color: #4C60C3;
+  text-decoration: underline;
+}
+
 .workBox {
   display: flex;
   padding: 30px;
