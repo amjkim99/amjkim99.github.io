@@ -31,12 +31,12 @@
             <span class="navItemName">HOME</span>
           </a>
         </li>
-        <li class="aboutNav">
+        <!-- <li class="aboutNav">
           <a href="#about" class="navItem">
             <i class="lni lni-user"></i>
             <span class="navItemName">ABOUT</span>
           </a>
-        </li>
+        </li> -->
         <li class="skillsNav">
           <a href="#skills" class="navItem">
             <i class="lni lni-code-alt"></i>
@@ -67,10 +67,9 @@
           <img src="assets/images/myself.png" alt="A picture of me!">
         </div>
         <div class="personalInfo">
-          <p class="greeting">My name is</p>
+          <p class="greeting">Hi! My name is</p>
             <h1><span>Aiden</span> Kim</h1>
-          <p class="smallBio">I'm currently a senior at the <span>University of Michigan</span> majoring in Computer Science.</p>
-          <div class="socialsResume">
+            <p class="smallBio">I'm a recent UMich CS grad, system administration intern, and design/programming lead for <a class="link" href="https://minoy-joy.itch.io/jungle-jam">Offbeat Productions</a>.</p>          <div class="socialsResume">
             <a class="resumeLink" href="assets/files/aiden_kim_resume.pdf" alt="Link to my Resume" target="_blank" rel="noopener noreferrer">Resumé</a>
             <ul class="socialsList">
               <li>
@@ -86,7 +85,7 @@
       <!-- Main -->
       <main>
         <!-- About -->
-        <section class="aboutSection" id="about">
+        <!-- <section class="aboutSection" id="about">
           <div class="sectionHead">
             <h2>ABOUT ME</h2>
           </div>
@@ -94,7 +93,7 @@
             <p>I'm from Okemos, Michigan, and have strong interdisciplinary interests in cybersecurity, IT, software engineering, web development, computer graphics, and game development.</p>
             <p>I love to think through problems and learn new solutions, and I am currently interning as a SysAdmin. I was previously a computer consultant at the University of Michigan's Electrical Engineering & Computer Science Departmental Computing Organization.</p>
           </article>
-        </section>
+        </section> -->
 
         <!-- Skills -->
         <section class="skillsSection" id="skills">
@@ -112,8 +111,8 @@
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/c.svg">
-                  <p>C</p>
+                  <img src="assets/icons/c_sharp.svg">
+                  <p>C#</p>
                 </div>
               </li>
               <li>
@@ -124,14 +123,14 @@
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/html.svg">
-                  <p>HTML</p>
+                  <img src="assets/icons/unity.svg">
+                  <p>Unity</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/css.svg">
-                  <p>CSS</p>
+                  <img src="assets/icons/jira.svg">
+                  <p>Jira</p>
                 </div>
               </li>
               <li>
@@ -148,14 +147,8 @@
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/react.svg">
-                  <p>React</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
-                  <img src="assets/icons/git.svg">
-                  <p>Git</p>
+                  <img src="assets/icons/powershell.svg">
+                  <p>Powershell</p>
                 </div>
               </li>
               <li>
@@ -166,26 +159,32 @@
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/windows.svg">
-                  <p>Windows OS</p>
-                </div>
-              </li>
-              <li>
-                <div class="itemContainer">
                   <img src="assets/icons/linux.svg">
                   <p>Linux</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/jira.svg">
-                  <p>Jira</p>
+                  <img src="assets/icons/git.svg">
+                  <p>Git</p>
                 </div>
               </li>
               <li>
                 <div class="itemContainer">
-                  <img src="assets/icons/unity.svg">
-                  <p>Unity</p>
+                  <img src="assets/icons/html.svg">
+                  <p>HTML</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/icons/css.svg">
+                  <p>CSS</p>
+                </div>
+              </li>
+              <li>
+                <div class="itemContainer">
+                  <img src="assets/icons/react.svg">
+                  <p>React</p>
                 </div>
               </li>
             </ul>
@@ -201,12 +200,35 @@
           <div class="worksContainer sectionContainer">
               <article class="workBox">
                 <div class="workImageContainer">
+                  <a href="https://minoy-joy.itch.io/jungle-jam">
+                    <img src="assets/images/JJAM.png" alt="Jungle Jam">
+                  </a>
+                </div>
+                <div class="workDescribeContainer">
+                  <h3>Jungle Jam</h3>
+                  <h4>Roguelike with a novel rhythm combat system</h4>
+                  <h4>Used: <span class="techStack">Unity</span>, <span class="techStack">LibreSprite</span>, <span class="techStack">C#</span></h4>
+                  <ul>
+                    <li>4-person team, 6 weeks of development</li>
+                    <li>Led game design, programming, environment design, lighting/post-processing, polish & juice</li>
+                    <li>Top placement at UM + EMU Games Showcase</li>
+                  </ul>
+                  <div class="workLinks">
+                    <a class="repoLink" href="https://minoy-joy.itch.io/jungle-jam">Play: Itch.io</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="workBox">
+                <div class="workImageContainer">
                   <img src="assets/images/umich.png" alt="University of Michigan">
                 </div>
                 <div class="workDescribeContainer">
                   <h3>Undergrad Projects</h3>
-                  <h4>Languages Used: <span class="techStack">C++</span>, <span class="techStack">C</span>, <span class="techStack">Python</span>, <span class="techStack">HTML</span>, <span class="techStack">CSS</span>, <span class="techStack">JavaScript</span>, <span class="techStack">Go</span></h4>
+                  <h4>Languages Used: <span class="techStack">C++</span>, <span class="techStack">C</span>, <span class="techStack">Python</span>, <span class="techStack">HTML</span>, <span class="techStack">CSS</span>, <span class="techStack">JavaScript</span>, <span class="techStack">Go</span>, <span class="techStack">C#</span></h4>
                   <ul>
+                    <p class="bold-text">EECS 494: Game Development</p>
+                    <li>Created 3 games with Unity and C#: <a class="textLink" href="https://minoy-joy.itch.io/jungle-jam">Jungle Jam</a>, <a class="textLink" href="https://alec-meyer.itch.io/eecs-494-metroid">Metroidal</a>, <a class="textLink" href="https://amjkim99.itch.io/pitu">Pítu</a></li>
                     <p class="bold-text">EECS 491: Distributed Systems</p>
                     <li>Created a distributed primary-backup database using Go</li>
                     <li>Created a sharded, distributed leaderless Paxos database using Go</li>
@@ -230,8 +252,48 @@
                     <p class="bold-text">EECS 280: Programming and Intro Data Structures</p>
                     <li>Used language processing and machine learning to automatically identify the subject of Piazza posts</li>
                   </ul>
+                </div>
+              </article>
+              
+              <article class="workBox">
+                <div class="workImageContainer">
+                  <a href="https://alec-meyer.itch.io/eecs-494-metroid">
+                    <img src="assets/images/metroidal2.png" alt="Metroidal">
+                  </a>
+                </div>
+                <div class="workDescribeContainer">
+                  <h3>Metroidal</h3>
+                  <h4>NES Metroid recreation with a custom portal-inspired level</h4>
+                  <h4>Used: <span class="techStack">Unity</span>, <span class="techStack">LibreSprite</span>, <span class="techStack">C#</span></h4>
+                  <ul>
+                    <li>2-person team, 3 weeks of development</li>
+                    <li>Worked on: Custom portal mechanic, custom level design, sprites, player behavior, audio, environments, camera, aesthetic authenticity</li>
+                  </ul>
+                  <ul>
+                    <li>Controls: [Arrow Keys], [Z], [X], [Spacebar]</li>
+                    <li>Custom Level: [4]</li>
+                  </ul>
                   <div class="workLinks">
-                    <!-- <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a> -->
+                    <a class="repoLink" href="https://alec-meyer.itch.io/eecs-494-metroid">Play: Itch.io</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="workBox">
+                <div class="workImageContainer">
+                  <a href="https://amjkim99.itch.io/pitu">
+                    <img src="assets/images/pitu2.png" alt="Pítu">
+                  </a>
+                </div>
+                <div class="workDescribeContainer">
+                  <h3>Pítu</h3>
+                  <h4>A simple 2d platformer with custom sprites</h4>
+                  <h4>Used: <span class="techStack">Unity</span>, <span class="techStack">LibreSprite</span>, <span class="techStack">C#</span></h4>
+                  <ul>
+                    <li>Solo project, 1 week of development</li>
+                  </ul>
+                  <div class="workLinks">
+                    <a class="repoLink" href="https://amjkim99.itch.io/pitu">Play: Itch.io</a>
                   </div>
                 </div>
               </article>
@@ -242,8 +304,7 @@
                 </div>
                 <div class="workDescribeContainer">
                   <h3>Rainier Engine</h3>
-                  <h4>Technologies Used: <span class="techStack">GLFW</span>, <span class="techStack">OpenGL</span></h4>
-                  <h4>Langauges Used: <span class="techStack">C++</span></h4>
+                  <h4>Used: <span class="techStack">GLFW</span>, <span class="techStack">OpenGL</span>, <span class="techStack">C++</span></h4>
                   <ul>
                     <li>Custom Game Engine</li>
                     <li>Input logging with spdlog, simple GUI using ImGui</li>
@@ -255,40 +316,23 @@
                 </div>
               </article>
 
-              <article class="workBox">
-                <div class="workImageContainer">
-                  <img src="assets/images/snake.png" alt="Snake">
-                </div>
-                <div class="workDescribeContainer">
-                  <h3>Snake</h3>
-                  <h4>Technologies Used: <span class="techStack">Raylib</span></h4>
-                  <h4>Langauges Used: <span class="techStack">C++</span></h4>
-                  <ul>
-                    <li>Basic Snake game created using the Raylib graphics library</li>
-                    <li>Hard difficulty spawns obstacles every point</li>
-                  </ul>
-                  <div class="workLinks">
-                    <!-- <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a> -->
-                    <a href="https://github.com/amjkim99/raylib-snake" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
-                  </div>
-                </div>
-              </article>
 
               <article class="workBox">
                 <div class="workImageContainer">
-                  <img src="assets/images/minesweeper.png" alt="Minesweeper">
+                  <img src="assets/images/raylib.png" alt="Raylib games">
                 </div>
                 <div class="workDescribeContainer">
-                  <h3>Minesweeper</h3>
-                  <h4>Technologies Used: <span class="techStack">Raylib</span></h4>
-                  <h4>Langauges Used: <span class="techStack">C++</span></h4>
+                  <h3>Raylib Snake & Minesweeper</h3>
+                  <h4>Used: <span class="techStack">Raylib</span>, <span class="techStack">C++</span></h4>
                   <ul>
-                    <li>Basic Minesweeper game created using the Raylib graphics library</li>
-                    <li>Features first-click protection and recursive tile clearing</li>
+                    <li>Basic Snake & Minesweeper games created using the Raylib graphics library</li>
+                    <li>Snake hard difficulty spawns obstacles every point</li>
+                    <li>Minesweeper features first-click protection and recursive tile clearing</li>
                   </ul>
                   <div class="workLinks">
                     <!-- <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a> -->
-                    <a href="https://github.com/amjkim99/raylib-minesweeper" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
+                    <a href="https://github.com/amjkim99/raylib-snake" class="repoLink" target="_blank" rel="noopener noreferrer">Snake</a>
+                    <a href="https://github.com/amjkim99/raylib-minesweeper" class="repoLink" target="_blank" rel="noopener noreferrer">Minesweeper</a>
                   </div>
                 </div>
               </article>
